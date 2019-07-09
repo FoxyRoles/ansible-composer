@@ -1,0 +1,13 @@
+---
+
+- name: composer binary present
+  get_url:
+    url: https://getcomposer.org/composer.phar
+    dest: "{{ composer_install_path }}"
+    mode: 0755
+
+- name: composer update cron present
+  copy:
+    src: composer.cron
+    dest: "{{ composer_update_cron_path }}"
+    mode: 0755

@@ -1,0 +1,4 @@
+---
+
+composer_install_path: /usr/local/bin/composer
+composer_update_cron_path: /etc/cron.daily/composer
