@@ -6,7 +6,7 @@ galaxy_info:
   company: Sunfox s.r.o.
   issue_tracker_url: https://github.com/sunfoxcz/ansible-composer/issues
   license: MIT
-  min_ansible_version: 1.2
+  min_ansible_version: 2.9
 
   platforms:
   - name: Ubuntu
